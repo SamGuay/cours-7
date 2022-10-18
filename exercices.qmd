@@ -15,5 +15,12 @@ df_3 <- read.csv(file = "data_3.csv")
 df_4 <- read.csv(file = "data_4.csv")
 
 df <- rbind(df_1, df_2, df_3, df_4)
+rm(df_1, df_2, df_3, df_4)
 
+```
+
+## Tâche 2 - Supprime ça tout de suite!
+
+```{r}
+df <- df[ , -1]
 ```
